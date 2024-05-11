@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#head1{
+   
+    background-color: black;
+    color: white;
+    display: flex;
+   font-size: 20px;
+   align-items: center;
+   
+}
+
+#logo{
+    background-color: red;
+    padding: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+
+
+#menu{
+    margin: auto;
+    font-size: 30px;
+    padding: 0px;
+    align-self: stretch;
+    
+
+}
+
+#menu li{
+
+   padding-right: 30px;
+   border-right: 5px solid gray;
+  border-width: 100%;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    size: 10px;
+}
+
+header ul{
+    display: flex;
+   
+}
+
+#head1 ul{
+    display: flex;
+    padding: 0px;
+    margin: 10px;
+   
+}
+
+#logos{
+    border-left: 1px solid gray ;
+    padding: 0px;
+    margin: 0px;
+    
+    
+    
+}
+#logos li{
+    
+    padding: 10px;
+    
+
+}
+
+#logos ul{
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#li2 {
+    display: flex;
+    background-color: gray;
+    
+}
+#li2 li{
+    padding: 10px;
+}
+
+#li3{
+    display: flex;
+}
+#li3 li{
+    padding: 10px;
+    border: 3px solid gray;
+    background-color: black;
+}
+#menu select{
+    padding: 10px;
+    border-right: 1px solid gray;
+    
+}
+
+#logos input{
+    margin: 4px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#head3{
+   
+    font-size: 20px;
+    
+}
+
+#head3 ul{
+    justify-content: flex-start;
+   
+}
+
+#head3 li{
+    padding-right: 50px;
+}
+#head3 a{
+    color: blue;
+}
+
+
+#cont1 h1{
+
+    padding-top: 30px;
+    margin: 0px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid gray;
+}
+
+article nav ul {
+    display: flex;
+   
+}
+
+#cont2 a{
+    color: blue;
+}
+ #cont2 li{
+    padding-right: 10px;
+    padding-top: 0px;
+    margin: 0px;
+ }
+
+ 
+
+#cont2 table{
+    width: 100%;
+    text-align: center;
+}
+#cont2 td{
+    border-left: 1px solid gray;
+    
+}
+  
+th, td{
+    padding: 10px;
+}
+
+#cont3 {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+#cont3 th,td{
+    border-bottom: 1px solid black;
+}
+
+#cont3 td{
+    color: blue;
+    width: 100%;
+}
+
+
+ 
+#cont3 tr{
+    border-bottom: 1px solid black;
+    
+}
+
+#cont3 h3{
+
+    padding-top: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+aside{
+    
+   
+    align-self: stretch;
+    text-align: left;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+#head2{
+    
+    background-color: blue;
+    padding: 10px;
+    
+    
+    
+ }
+
+
+ #head2 li a{
+    border: 1px solid rgb(29, 29, 102);
+    background-color:rgb(42, 42, 97) ;
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+    border-left: 1px solid white;
+    align-items: flex-start;
+ }
+
+
+ aside th,td{
+    border-bottom: none;
+ }
+
+ aside th{
+    color: blue;
+    font-size: 20px;
+ }
+
+ 
+aside tr:nth-child(odd) {
+        background-color: #D6EEEE;
+      }
+
+#side2{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #D6EEEE;
+    font-size: 20px;
+    padding: 0px;
+    border: 2px solid whitesmoke;
+    margin-top: 10px;
+}
+
+#side2 h3{
+    color: blue;
+}
+ 
+#inp input{
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+
+ }
+
+
+ table{
+    border-collapse: collapse;
+ }
+
+ #cont4 table{
+    width: 100%;
+ }
+   
+ #cont4 td{
+    text-align: center;
+ }
+    
+
+ 
+
+#cont4 tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+#head1 li{
+    text-align: center;
+  }
+
+#head2 ul{
+    text-align: center;
+  }
+
+#side1 {
+    display: flex;
+    
+}
+
+#side1 h3{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+#head2{
+    margin: 10px;
+}
+
+#cont4 h3{
+    padding-top: 70px;
+}
+
+aside table{
+    width: 100%;
+}
+
+aside td{
+    font-size: 20px;
+}
+
+#tab2 td{
+    text-align: right;
+    font-size: 25px;
+}
+
+#tab3 td{
+    text-align: right;
+    font-size: 25px;
+}
+
+#side3{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #D6EEEE;
+    font-size: 20px;
+    padding: 0px;
+    border: 2px solid whitesmoke;
+    margin-top: 10px;
+}
+
+#side3 h3{
+    color: blue;
+}
+
+#side4{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #D6EEEE;
+    font-size: 20px;
+    padding: 0px;
+    border: 2px solid whitesmoke;
+    margin-top: 10px;
+}
+
+#side4 h3{
+    color: blue;
+}

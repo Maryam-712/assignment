@@ -1,0 +1,46 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-color: #bdc3c7;
+}
+
+h1{
+    color: #9b59b6;
+}
+
+h2{
+    color: rgb(27, 1, 70);
+}
+
+#special{
+    color: rgb(119, 60, 197);
+    border: 2px solid rgb(156, 22, 22);
+}
+
+.hello{
+    color: rgb(91, 91, 189);
+    background-color: beige;
+}
+
+p{
+    background-color: rgb(185, 185, 50);
+}
+
+div p {
+    font-size: 20px;
+}
+
+
+p em{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+div:nth-child(3) p {
+    background-color: #a00c3d;
+}

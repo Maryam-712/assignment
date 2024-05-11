@@ -1,0 +1,16 @@
+*{
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+h3{
+    text-align: center;
+}
+
