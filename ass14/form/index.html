@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+   
+    <title>form</title>
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <hr>
+    <form >
+        <div class="main">
+        <fieldset>
+            <legend>Required Information</legend>
+        <div class="dv1">
+        <label for="name">Name</label><br>
+        <input type="text" name="username" id="name" size="50"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" size="50"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" size="50"><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" name="phone" id="phone" size="50"><br>
+        <label for="address">Address</label><br>
+        <textarea name="address" id="address" cols="45" rows="4"></textarea>
+        
+    </div>
+
+        <div class="dv2">
+        <p>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        </p>
+   
+    </div>
+    <div class="dv3">
+        <label for="qualification">Qualification</label>
+        <select name="qualification" id="qualification" >
+            <option value="matric">Matric</option>
+            <option value="inter">Inter</option>
+            <option value="undergraduate">Undergraduate</option>
+        </select>
+        <br>
+
+        
+        <label for="pic">Profile Picture</label>
+        <input type="file" name="picture"  id="pic">
+        <br>
+   
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">I agree to the terms and condition</label>
+        <br>
+
+    </div>
+               <input type="image" src="image/25497-9-submit-button-photos-thumb.png" name="submit"  width="150px" >
+        <br>
+  
+        <button>
+            <img src="image/register-button-png-18477.png" alt="submit" width="200px">
+        </button>
+    </fieldset>
+    </div>
+    </form>
+</body>
+</html>

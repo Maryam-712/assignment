@@ -1,0 +1,37 @@
+h1{
+    font-family: "LTC Bodoni 175 W01 Regular";
+    text-align: center;
+    font-weight: 500;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.5rem;
+    background-color: rgb(224, 211, 211);
+    text-shadow: 1px 1px 3px #646262;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 3rem;
+    word-spacing: 1rem;
+    text-indent: 50px;
+}
+
+a{
+    font-size: 2rem;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:visited{
+    color: black;
+}

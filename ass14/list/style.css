@@ -1,0 +1,9 @@
+ul{
+        list-style-image: url("images/star.png");  
+}
+
+
+ol{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}

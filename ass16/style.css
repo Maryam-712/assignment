@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    margin: 1em; 
+    padding: 1em;
+    justify-content: space-between;
+    background-color: plum;
+    align-items: center;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 1.5em;
+
+    
+}
+
+
+div{
+   font-weight: 3rem;
+    display: none;
+}
+
+.navbar div {
+    display: contents;
+    font-weight: 50rem;
+    margin: 1em 1em;
+    padding: 1em 1em;
+    
+   
+}
+
+li{
+    list-style: none;
+    gap: 2em;
+}
+
+li:hover{
+    text-decoration: underline;
+}
