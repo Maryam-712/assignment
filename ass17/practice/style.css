@@ -1,0 +1,24 @@
+
+
+.container{
+    margin: 2em;
+    padding: 2em;
+    border: 1px solid black;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.text{
+    border: 1px solid red;
+    margin: 2em;
+    padding: 2em;
+}
+
+@media screen and (max-width : 640px ) {
+    .container{
+        flex-direction: column;
+    }
+}
