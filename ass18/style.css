@@ -62,13 +62,11 @@ p{
 
 header{
     background-image: url('./assets/Path.png');
-  
+    height: 100vh;
     background-repeat: no-repeat;
-    background-position: right ;   
-    width: 2030px;
-    height: 1100px;
-   
-
+    background-position: right;
+    width: 100%;
+    
 }
 
 
@@ -105,6 +103,7 @@ a{
     display: flex;
     justify-content: space-between;
     margin-top: 6em;
+   
 }
 
 .text-div{
@@ -112,6 +111,7 @@ a{
     flex-direction: column;
     gap: 2em;
     width: 50%;
+    margin: auto;
     
 }
 
@@ -133,7 +133,8 @@ a{
 }
 
 .hero-img{
-   margin-top: 3em 0;
-    height: 90vh;
+    margin: 5em 0;
+    height: 80vh;
+    
 }
 
