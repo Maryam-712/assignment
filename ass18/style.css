@@ -69,7 +69,7 @@ header{
     height: 120vh;
     background-repeat: no-repeat;
     background-position: right bottom;
-    width: 100%;
+    width: 100vw;
     background-size: 60%;
    
 }
