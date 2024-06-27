@@ -26,8 +26,12 @@
    
 }
 
+html{
+    font-size: 16px;
+}
+
 h1{
-    font-size: 48px;
+    font-size: 3rem;
     color: #37447E;
     
 }
@@ -137,7 +141,7 @@ a{
 
 .heading2 h1{
     color: #091133;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 500;
 }
 
